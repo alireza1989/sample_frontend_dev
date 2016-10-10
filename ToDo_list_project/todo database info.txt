@@ -1,3 +1,0 @@
-DB name: todo_db
-DB USER:todo_ali123
-DB PASS: Itsec@890
