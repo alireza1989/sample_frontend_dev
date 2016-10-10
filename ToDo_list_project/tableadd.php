@@ -1,9 +1,4 @@
 <?php
-$servername = "localhost";
-$username = "todo_ali123";
-$password = "Itsec@890";
-$dbname = "todo_db";
-
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 
