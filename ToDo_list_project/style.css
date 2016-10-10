@@ -1,0 +1,108 @@
+body{
+	background-color: #A8DCFF;
+}
+
+.add-todo{
+
+	width: 430 px;
+	height:600 px;
+	background-color: #4D4D4D;
+	margin: 5px;
+	padding: 20px;
+	color: white;
+	width: 93.5%;
+	
+}
+
+.todo-tile {
+	width: 430 px;
+	height:auto;
+	background-color: #F16F51;
+	margin: 5px;
+	padding: 20px;
+	color: white;
+	float: left;
+	width:44%;
+}
+
+.history-tile{
+	width: 430;
+	height:auto;
+	background-color: #13B2A3;
+	margin: 5px;
+	padding: 20px;
+	color: white;
+	float: left;
+	width: 44%;
+}
+
+#main-container{
+	max-width: 900px;
+	margin: auto auto;
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 3px;
+	font-size: 20pt;
+	font-family: helvetica;
+	font-weight: bold;
+	border-bottom: 1px solid #F6F6F6;
+}
+
+.text-input {
+    
+    width: 350px;
+}
+
+.button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 7px 14px 7px 14px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#todo-table{
+	margin:10px auto;
+	width: 100%;
+	font-family: helvetica;
+
+}
+
+#todo-table thead {
+	border-bottom: 1px solid #F6F6F6;
+	padding: 2px;
+	text-align: center;
+	font-size: 13pt;
+	font-weight: bold;
+
+}
+
+#todo-table td{
+	border-right: 1px solid #F6F6F6;
+	border-left:  1px solid #F6F6F6;
+	border-bottom: 1px solid #F6F6F6;
+	padding: 4px;
+	text-align: center;
+}
+
