@@ -1,0 +1,112 @@
+body {
+	  background-color: #25272F;
+	  font-family: helvetica;
+	  font-weight: bold;
+	  color: white;
+}
+
+h2{
+	font-size: 18pt;
+	margin-bottom: 15px;
+}
+
+.evet-hours{
+	font-size:10px;
+	font-style:italic;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.event-date{
+	margin-top: 40px;
+}
+
+.evet-day{
+	font-size: 55pt;
+}
+
+.tile {
+	width: 170px;
+	height: 140px;
+	background-color: gray;
+	border-color: red;
+	margin: 5px;
+	padding: 20px;
+	float: left;	
+}
+
+.tile-double{
+	width: 390px;
+	height: 140px;
+	background-color: gray;
+	border-color: red;
+	margin: 5px;
+	padding: 20px;
+	float: left;	
+}
+
+.tile-list a {
+	color: white;
+	text-decoration: none; 
+}
+
+ul.tile-list li{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	list-style-type: disc;
+}
+
+ol.tile-list li{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	list-style-type: decimal;
+}
+
+.green{
+	background-color: #13B2A3;
+}
+
+.red{
+	background-color: #F16F51;
+}
+
+.yellow{
+	background-color: #FDB45C;
+}
+
+.lightgrey{
+	background-color: #F6F6F6;
+}
+
+.city-image{
+	background-image: url("santiago.png");
+	font-size: 20pt;
+}
+
+#main-container{
+	max-width: 900px;
+	margin: auto auto;
+}
+
+.chart-total{
+	font-size: 30pt;
+	text-align: right;
+	color: black;
+}
+
+#users-table{
+	margin:10px auto;
+	font-weight: normal;
+	width: 100%;
+}
+
+#users-table thead {
+	border-bottom: 1px solid #F6F6F6;
+	padding: 2px;
+	text-align: center;
+}
+
+#users-table td{
+	padding: 2px;
+	text-align: center;
+}
